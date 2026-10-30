@@ -6,6 +6,12 @@ A modern, responsive personal portfolio website built to showcase my skills, edu
 
 This portfolio presents my journey as a Junior Frontend Developer. It highlights my technical skills, featured projects, and contact information.
 
+## 🌐 Live Demo
+
+Check out my live portfolio:
+
+[My Personal Portfolio](https://my-personal-portfolio-dsim11sna-james-dev5.vercel.app/)
+
 ## 🛠️ Tech Stack
 
 - React.js
@@ -48,7 +54,7 @@ Follow these steps to run the project locally.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/jamesroben29-coder/my-personal-portfolio.git
 ```
 
 ### 2. Navigate to the project folder
