@@ -12,7 +12,7 @@ const Education = () => {
       id="education"
       className="bg-[#050b16] text-white px-5 md:px-8 lg:px-12 py-20 md:py-24 scroll-mt-24 ..."
     >
-      {/* Section Heading */}
+
       <div className="text-center mb-14">
         <h2 className="text-blue-500 text-sm font-bold tracking-[5px] uppercase">
           Education
@@ -29,21 +29,16 @@ const Education = () => {
         </p>
       </div>
 
-      {/* Education Content */}
+
       <div className="max-w-4xl mx-auto">
 
-        {/* University Card */}
         <div className="relative bg-gradient-to-br from-[#0b1527] to-[#09111f] border border-blue-500/20 rounded-2xl p-6 md:p-10 shadow-[0_10px_40px_rgba(37,99,235,0.08)] transition-all duration-300 hover:border-blue-500/50">
 
-          {/* Top Section */}
           <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-8">
 
-            {/* Graduation Icon */}
             <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-blue-500/10 border border-blue-500/20 shrink-0">
               <FaGraduationCap className="text-blue-400 text-3xl" />
             </div>
-
-            {/* University Information */}
             <div>
               <span className="inline-block text-blue-400 text-xs font-bold tracking-widest uppercase mb-2">
                 University Education
@@ -60,10 +55,8 @@ const Education = () => {
 
           </div>
 
-          {/* Divider */}
           <div className="border-t border-white/10 my-6"></div>
 
-          {/* Information Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
 
             <div className="flex items-center gap-4 bg-[#101d30] border border-white/10 rounded-xl p-4">
@@ -94,7 +87,6 @@ const Education = () => {
 
           </div>
 
-          {/* Academic Description */}
           <div className="mb-8">
             <h4 className="flex items-center gap-3 text-xl font-bold text-white mb-4">
               <FaBookOpen className="text-blue-400" />
@@ -109,7 +101,6 @@ const Education = () => {
             </p>
           </div>
 
-          {/* Status */}
           <div className="flex flex-wrap items-center gap-3">
             <span className="px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-sm font-semibold">
               Undergraduate Student

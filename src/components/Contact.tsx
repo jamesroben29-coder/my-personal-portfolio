@@ -67,7 +67,7 @@ const Contact = () => {
     >
       <div className="mx-auto max-w-7xl">
 
-        {/* Section Heading */}
+
         <div className="mb-16 text-center">
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.35em] text-blue-500">
             Get In Touch
@@ -85,10 +85,9 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* Contact Content */}
+
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
 
-          {/* Left Side */}
           <div className="flex flex-col justify-between">
             <div>
               <h3 className="mb-5 text-2xl font-bold md:text-3xl">
@@ -101,7 +100,6 @@ const Contact = () => {
                 Let's create something great together!
               </p>
 
-              {/* Contact Information */}
               <div className="space-y-5">
                 {contactInfo.map((item, index) => (
                   <div
@@ -141,7 +139,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Availability */}
             <div className="mt-10 rounded-xl border border-blue-500/20 bg-blue-500/5 p-6">
               <div className="mb-3 flex items-center gap-3">
                 <span className="h-3 w-3 rounded-full bg-green-500 shadow-[0_0_12px_#22c55e]"></span>
@@ -157,7 +154,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Right Side - Contact Form */}
           <div className="rounded-2xl border border-gray-800 bg-[#0d1525] p-6 shadow-2xl md:p-9">
             <div className="mb-8">
               <h3 className="text-2xl font-bold">
@@ -171,7 +167,7 @@ const Contact = () => {
 
             <form onSubmit={handleSubmit} className="space-y-6">
 
-              {/* Name */}
+        
               <div>
                 <label
                   htmlFor="name"
@@ -192,7 +188,6 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Email */}
               <div>
                 <label
                   htmlFor="email"
@@ -213,7 +208,6 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Subject */}
               <div>
                 <label
                   htmlFor="subject"
@@ -234,7 +228,6 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Message */}
               <div>
                 <label
                   htmlFor="message"
@@ -255,7 +248,6 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              {/* Submit Button */}
               <button
                 type="submit"
                 className="flex w-full items-center cursor-pointer justify-center gap-3 rounded-lg bg-blue-600 px-6 py-3 font-bold text-white shadow-lg shadow-blue-600/20 transition duration-300 hover:-translate-y-1 hover:bg-blue-500 hover:shadow-blue-500/30"
@@ -268,7 +260,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Bottom Text */}
         <div className="mt-20 border-t border-gray-800 pt-8 text-center">
           <p className="text-sm text-gray-500">
             Have a great idea? Let's make it happen.

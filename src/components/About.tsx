@@ -14,7 +14,7 @@ const About = () => {
       id="about"
       className="bg-[#050b16] text-white px-5 md:px-8 lg:px-12 py-20 md:py-24 scroll-mt-24 ..."
     >
-      {/* Section Heading */}
+  
       <div className="text-center mb-14">
         <h2 className="text-blue-500 text-sm font-bold tracking-[5px] uppercase">
           About Me
@@ -28,15 +28,15 @@ const About = () => {
         <div className="w-16 h-1 bg-blue-500 rounded-full mx-auto mt-6"></div>
       </div>
 
-      {/* Main Grid */}
+      
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-7 max-w-7xl mx-auto">
 
-        {/* Who I Am Card */}
+        
         <div className="bg-gradient-to-br from-[#0b1527] to-[#09111f] border border-blue-500/20 rounded-2xl p-6 md:p-8">
 
           <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-7 items-center">
 
-            {/* Profile Image */}
+            
             <div className="w-full">
               <img
                 src={nyinyiaung2}
@@ -45,7 +45,7 @@ const About = () => {
               />
             </div>
 
-            {/* Introduction */}
+      
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 before:content-[''] before:block before:w-14 before:h-1 before:bg-blue-500 before:rounded-full before:mb-5">
                 Who I Am
@@ -74,7 +74,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* What I'm Learning Card */}
+        
         <div className="bg-gradient-to-br from-[#0b1527] to-[#09111f] border border-blue-500/20 rounded-2xl p-6 md:p-8">
 
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 before:content-[''] before:block before:w-14 before:h-1 before:bg-blue-500 before:rounded-full before:mb-5">

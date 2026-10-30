@@ -71,7 +71,6 @@ const Projects = () => {
     >
       <div className="mx-auto max-w-7xl">
 
-        {/* Section Heading */}
         <div className="mb-14 text-center">
           <p className="mb-3 text-sm font-bold uppercase tracking-[0.35em] text-blue-500">
             My Projects
@@ -89,7 +88,6 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Project Cards */}
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
 
           {projects.map((project) => (
@@ -98,7 +96,7 @@ const Projects = () => {
               className="group flex flex-col overflow-hidden rounded-2xl border border-blue-500/20 bg-gradient-to-b from-slate-900 to-[#080F1D] transition duration-300 hover:-translate-y-2 hover:border-blue-500/70 hover:shadow-[0_15px_45px_rgba(37,99,235,0.12)]"
             >
 
-              {/* Project Screenshot */}
+
               <div
                 className={`h-56 overflow-hidden ${project.imageBg}`}
               >
@@ -109,7 +107,7 @@ const Projects = () => {
                 />
               </div>
 
-              {/* Project Details */}
+
               <div className="flex flex-1 flex-col p-6">
 
                 <p className={`mb-2 text-xs font-bold uppercase tracking-widest ${project.accent}`}>
@@ -124,7 +122,6 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                {/* Technologies */}
                 <div className="mb-6 flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
                     <span
@@ -136,7 +133,6 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* Project Links */}
                 <div className="flex items-center gap-5 border-t border-white/10 pt-5">
 
                   <a

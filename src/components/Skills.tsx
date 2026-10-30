@@ -99,7 +99,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Tools */}
         <div className="bg-gradient-to-br from-[#0b1527] to-[#09111f] border border-blue-500/20 rounded-2xl p-6 md:p-8">
           <h3 className="text-xl md:text-2xl font-bold text-white mb-6">Tools & Technologies</h3>
 

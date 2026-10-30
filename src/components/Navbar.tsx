@@ -14,7 +14,6 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
-  // Detect the currently visible section
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -51,7 +50,7 @@ const Navbar = () => {
       items-center justify-between border-b border-white/10 bg-[#0B0F19]/90 backdrop-blur-md
       px-5 py-4 sm:px-8 lg:pl-px-3"
     >
-      {/* Logo */}
+
       <div className="text-xl font-bold text-white sm:text-2xl">
         <a
           href="#home"
@@ -65,7 +64,6 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Mobile Menu Button */}
       <button
         className="cursor-pointer rounded-lg border border-white/10 p-2 text-gray-200 transition-colors hover:bg-white/10 hover:text-blue-400 md:hidden"
         type="button"
@@ -76,7 +74,6 @@ const Navbar = () => {
         {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
-      {/* Navigation Links */}
       <div
         className={`${
           isMenuOpen ? "flex" : "hidden"
